@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row flex-col ${styles.paddingY} bg-red-gradient`}
     >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
@@ -43,12 +43,6 @@ const Hero = () => {
           alt="billing"
           className="w-[100%] h-[100%]  relative z-[5]"
         />
-
-        {/* gradient start */}
-        <div className="absolute z-[0] w-[100%] h-[105%] top-0 red_gradient" />
-        <div className="absolute z-[1] w-[100%] h-[100%] red_gradient bottom-40" />
-        <div className="absolute z-[0] w-[100%] h-[100%] right-20 bottom-20 red_gradient" />
-        {/* gradient end */}
       </div>
     </section>
   );
