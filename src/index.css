@@ -18,20 +18,31 @@
   scroll-behavior: smooth;
 }
 
+.hero {
+  background-image: url("background-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .text-gradient {
-  background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+  background: linear-gradient(
+    91.03deg,
+    #ff2600 -0.63%,
+    rgba(255, 43, 6, 0.53) 70%,
+    rgba(208, 13, 10, 0.76) 110.28%,
+    rgba(255, 43, 6, 0.28) 110.28%
   );
+
+  /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+.red-gradient {
+  background: linear-gradient(180deg, #f5f5f5 0%, #ffd7dd 100%);
 }
 
 .bg-blue-gradient {
@@ -133,7 +144,10 @@
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
   filter: blur(900px);
 }
-
+.red-gradient {
+  background: linear-gradient(180deg, #f5f5f5 0%, #ffd7dd 100%);
+  filter: blur(90px);
+}
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);

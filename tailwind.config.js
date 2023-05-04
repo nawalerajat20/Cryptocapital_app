@@ -6,9 +6,9 @@ export default {
     extend: {
       colors: {
         primary: "rgba(255, 255, 255, 0.7)",
-        secondary: "#EF5350",
-        dimWhite: "#00040f",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
+        secondary: "#FF2B06",
+        dimBlack: "#00040f",
+        dimRed: "#EF5350",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
