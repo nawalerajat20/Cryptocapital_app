@@ -35,10 +35,6 @@
   text-fill-color: transparent;
 }
 
-.red-gradient {
-  background: linear-gradient(180deg, #f5f5f5 0%, #ffd7dd 100%);
-}
-
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -70,6 +66,14 @@
 }
 .bg-red-gradient {
   background: linear-gradient(180deg, #f5f5f5 0%, #ffd7dd 100%);
+}
+.bg-reds-gradient {
+  background: linear-gradient(
+    90.04deg,
+    #f5f5f5 0.03%,
+    #f5f5f5 31.62%,
+    #ffd7dd 99.96%
+  );
 }
 
 .bg-gray-gradient {
