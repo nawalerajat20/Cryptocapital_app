@@ -1,6 +1,7 @@
 import Ted from "./Ted";
 import Tedx from "./Tedx";
 import Tedxdypakurdi from "./Tedxdypakurdi";
+import Theme from "./Theme";
 import Footfall from "./Footfall";
 import Audience from "./Audience";
 import Speakers from "./Speakers";
@@ -21,6 +22,7 @@ export {
   Ted,
   Tedx,
   Tedxdypakurdi,
+  Theme,
   Footfall,
   Audience,
   Speakers,

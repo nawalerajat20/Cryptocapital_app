@@ -1,5 +1,8 @@
 import airbnb from "./airbnb.png";
-import bill from "./bill.png";
+import aboutus from "./aboutus.png";
+import ted from "./ted.png";
+import tedx from "./tedx.png";
+import tedxdyp from "./tedxdyp.png";
 import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
@@ -26,7 +29,10 @@ import people03 from "./people03.png";
 
 export {
   airbnb,
-  bill,
+  aboutus,
+  ted,
+  tedx,
+  tedxdyp,
   binance,
   card,
   coinbase,

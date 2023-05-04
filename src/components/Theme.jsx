@@ -1,18 +1,14 @@
-import { ted } from "../assets";
+import { aboutus } from "../assets";
 import styles, { layout } from "../style";
 
-const Ted = () => (
+const Theme = () => (
   <section
     id="product"
     className={`flex md:flex-row flex-col ${styles.paddingY}`}
   >
-    <div className={layout.sectionImgReverse}>
-      <img src={ted} alt="Ted" className="w-[80%] h-[80%] relative z-[5]" />
-    </div>
-
     <div className={layout.sectionInfo}>
       <h1 className="flex-1 font-poppins font-semibold text-secondary ss:text-[72px] text-[52px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
-        About TED
+        About Chaptername
       </h1>
       <p className={`${styles.paragraph} max-w-[500px] mt-6 mb-12`}>
         TED is a nonprofit organization that is devoted to spreading ideas
@@ -29,7 +25,11 @@ const Ted = () => (
         Okonjo-Iweala, Isabel Allende and former UK Prime Minister Gordon Brown.
       </p>
     </div>
+
+    <div className={layout.sectionImgReverse}>
+      <img src={aboutus} alt="Ted" className="w-[80%] h-[100%] left-20 relative z-[5]" />
+    </div>
   </section>
 );
 
-export default Ted;
+export default Theme;
