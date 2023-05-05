@@ -11,10 +11,10 @@ const Ted = () => (
     </div>
 
     <div className={layout.sectionInfo}>
-      <h1 className="flex-1 font-poppins font-semibold text-secondary ss:text-[72px] text-[52px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
-        About TED
+      <h1 className="flex-1 font-poppins font-bold text-secondary ss:text-[72px] text-[52px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
+        ABOUT TED
       </h1>
-      <p className={`${styles.paragraph} max-w-[500px] mt-6 mb-12`}>
+      <p className={`${styles.paragraph} max-w-[700px] flex-1 mt-6 mb-12`}>
         TED is a nonprofit organization that is devoted to spreading ideas
         through short, powerful talks. Its mission is to inspire, educate, and
         entertain, and it has become a global phenomenon, with events and talks

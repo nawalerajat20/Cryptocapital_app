@@ -10,15 +10,15 @@ const Billing = () => (
       <img
         src={tedxdyp}
         alt="billing"
-        className="w-[80%] h-[60%] relative z-[5]"
+        className="w-[80%] h-[70%] relative z-[5]"
       />
     </div>
 
     <div className={layout.sectionInfo}>
-      <h1 className="flex-1 font-poppins font-semibold text-secondary ss:text-[72px] text-[52px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
-        About TEDxDYPAkurdi
+      <h1 className="flex-1 font-poppins font-bold text-secondary ss:text-[72px] text-[52px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
+        ABOUT TEDxDYPAKURDI
       </h1>
-      <p className={`${styles.paragraph} max-w-[500px] mt-6 mb-12`}>
+      <p className={`${styles.paragraph} max-w-[700px] flex-1 mt-6 mb-12`}>
         Our event is called TEDxDYPAkurdi, TEDx is a programme of regional,
         independently organised events that brings people together to have a
         TED-like experience in the spirit of ideas worth spreading. Here at

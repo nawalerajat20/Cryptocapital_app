@@ -8,10 +8,12 @@ const Tedx = () => {
       className={`flex md:flex-row flex-col justify-center items-start ${styles.paddingY} `}
     >
       <div className={layout.sectionInfo}>
-        <h1 className="flex-1 font-poppins font-semibold text-secondary ss:text-[72px] text-[52px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
-          About TEDx
+        <h1 className="flex-1 font-poppins font-bold text-secondary ss:text-[72px] text-[52px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
+          ABOUT TEDx
         </h1>
-        <p className={`${styles.paragraph} max-w-[500px] mt-6 mb-12 my-10`}>
+        <p
+          className={`${styles.paragraph} max-w-[700px] flex-1 mt-6 mb-12 my-10`}
+        >
           TED has established a programme called TEDx with the intention of
           disseminating worthwhile ideas. The 'x' stands for 'independently
           organized,' and it allows communities to create their own TED-like

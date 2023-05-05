@@ -46,6 +46,9 @@
     #33bbcf 90.29%
   );
 }
+.bg-gray {
+  background-color: gainsboro;
+}
 
 .bg-black-gradient {
   background: linear-gradient(
