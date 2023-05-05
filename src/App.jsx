@@ -60,7 +60,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-gray ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-grey ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Footfall />
       </div>
@@ -70,7 +70,7 @@ const App = () => (
         <Audience />
       </div>
     </div>
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-grey ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Speakers />
       </div>
