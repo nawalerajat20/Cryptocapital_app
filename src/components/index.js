@@ -17,6 +17,7 @@ import ContactUs from "./ContactUs";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
+import Sectionengagement from "./Sectionengagement";
 
 export {
   Ted,
@@ -26,6 +27,7 @@ export {
   Footfall,
   Audience,
   Speakers,
+  Sectionengagement,
   Packages,
   Timeline,
   Deliverables,

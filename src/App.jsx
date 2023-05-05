@@ -19,6 +19,7 @@ import {
   PreviousSponsers,
   ContactUs,
   Footer,
+  Sectionengagement,
 } from "./components";
 
 const App = () => (
@@ -87,6 +88,11 @@ const App = () => (
     <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Deliverables />
+      </div>
+    </div>
+    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Sectionengagement />
       </div>
     </div>
     <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
