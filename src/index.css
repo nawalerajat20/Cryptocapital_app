@@ -42,16 +42,16 @@
   text-fill-color: transparent;
 }
 
-.bg-blue-gradient {
+.bg-orange-gradient {
   background: linear-gradient(
-    157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+    90deg,
+    #ff4f4b -3.01%,
+    rgba(243, 154, 50, 0.67) 110.66%
   );
+}
+
+.bg-orange-gradient-2 {
+  background: linear-gradient(90.12deg, #ff2b06 0.13%, #f39a32 108.11%);
 }
 .bg-gray {
   background-color: gainsboro;
