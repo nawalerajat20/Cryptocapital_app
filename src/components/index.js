@@ -5,12 +5,13 @@ import Ted from "./Ted";
 import Tedx from "./Tedx";
 import Tedxdyp from "./Tedxdyp";
 import Deliverables from "./Deliverables";
-import Clients from "./Clients";
+import Chapter from "./Chapter";
 import CTA from "./CTA";
 import Stats from "./Stats";
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
+import Theme from "./Theme";
 import Hero from "./Hero";
+import Transending from "./Transending";
 
 export {
   Navbar,
@@ -20,10 +21,11 @@ export {
   Tedx,
   Tedxdyp,
   Deliverables,
-  Clients,
+  Chapter,
   CTA,
   Stats,
   Footer,
-  Testimonials,
+  Theme,
   Hero,
+  Transending,
 };

@@ -1,4 +1,4 @@
-import { apple, dummy } from "../assets";
+import { dummy } from "../assets";
 import styles, { layout } from "../style";
 
 const Tedxdyp = () => (

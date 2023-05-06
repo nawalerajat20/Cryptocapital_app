@@ -6,13 +6,14 @@ import {
   Tedxdyp,
   Deliverables,
   CardDeal,
-  Clients,
+  Chapter,
   CTA,
   Footer,
   Navbar,
   Stats,
-  Testimonials,
+  Theme,
   Hero,
+  Transending
 } from "./components";
 
 const App = () => (
@@ -37,22 +38,37 @@ const App = () => (
 
     <div className={`bg-reds-gradient ${styles.flexStart}`}>
       <div className={`flex ${styles.boxWidth}`}>
-      <Ted />
+        <Ted />
       </div>
     </div>
     <div className={`bg-reds-gradient ${styles.flexStart}`}>
       <div className={`flex ${styles.boxWidth}`}>
-      <Tedx />
+        <Tedx />
       </div>
     </div>
     <div className={`bg-reds-gradient ${styles.flexStart}`}>
       <div className={`flex ${styles.boxWidth}`}>
-      <Tedxdyp />
+        <Tedxdyp />
       </div>
     </div>
     <div className={`bg-reds-gradient ${styles.flexStart}`}>
       <div className={`flex ${styles.boxWidth}`}>
-      <Deliverables />
+        <Chapter />
+      </div>
+    </div>
+    <div className={`bg-reds-gradient ${styles.flexStart}`}>
+      <div className={`flex ${styles.boxWidth}`}>
+        <Theme />
+      </div>
+    </div>
+    <div className={`bg-secondary ${styles.flexStart}`}>
+      <div className={`flex ${styles.boxWidth}`}>
+        <Transending />
+      </div>
+    </div>
+    <div className={`bg-reds-gradient ${styles.flexStart}`}>
+      <div className={`flex ${styles.boxWidth}`}>
+        <Deliverables />
       </div>
     </div>
 
@@ -60,8 +76,6 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Billing />
         <CardDeal />
-        <Testimonials />
-        <Clients />
         <CTA />
         <Footer />
       </div>
