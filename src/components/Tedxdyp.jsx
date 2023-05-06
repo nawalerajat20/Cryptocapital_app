@@ -2,7 +2,7 @@ import { apple, dummy } from "../assets";
 import styles, { layout } from "../style";
 
 const Tedxdyp = () => (
-  <section id="product" className={layout.sectionReverse}>
+  <section id="about" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img
         src={dummy}
@@ -14,7 +14,7 @@ const Tedxdyp = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={` mx-20 ${styles.heading2}`}>
-        ABOUT <br/> <span className="text-red"> TEDxDYPAKURDI</span>
+        ABOUT <br /> <span className="text-red"> TEDxDYPAKURDI</span>
       </h2>
       <p className={`${styles.paragraph} mx-20 max-w-[470px] mt-5`}>
         Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean

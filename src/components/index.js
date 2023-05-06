@@ -4,6 +4,7 @@ import CardDeal from "./CardDeal";
 import Ted from "./Ted";
 import Tedx from "./Tedx";
 import Tedxdyp from "./Tedxdyp";
+import Deliverables from "./Deliverables";
 import Clients from "./Clients";
 import CTA from "./CTA";
 import Stats from "./Stats";
@@ -18,6 +19,7 @@ export {
   Ted,
   Tedx,
   Tedxdyp,
+  Deliverables,
   Clients,
   CTA,
   Stats,

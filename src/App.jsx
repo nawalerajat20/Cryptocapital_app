@@ -4,6 +4,7 @@ import {
   Ted,
   Tedx,
   Tedxdyp,
+  Deliverables,
   CardDeal,
   Clients,
   CTA,
@@ -47,6 +48,11 @@ const App = () => (
     <div className={`bg-reds-gradient ${styles.flexStart}`}>
       <div className={`flex ${styles.boxWidth}`}>
       <Tedxdyp />
+      </div>
+    </div>
+    <div className={`bg-reds-gradient ${styles.flexStart}`}>
+      <div className={`flex ${styles.boxWidth}`}>
+      <Deliverables />
       </div>
     </div>
 

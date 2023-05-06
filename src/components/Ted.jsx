@@ -2,7 +2,7 @@ import { apple, dummy } from "../assets";
 import styles, { layout } from "../style";
 
 const Ted = () => (
-  <section id="product" className={layout.sectionReverse}>
+  <section id="about" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img
         src={dummy}

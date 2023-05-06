@@ -1,4 +1,17 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  quote,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -26,24 +39,24 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: quote,
+    title: "PRE-ENGAGEMENT",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
   },
   {
-    id: "feature-2",
-    icon: shield,
+    id: "MID-ENGAGEMENT",
+    icon: quote,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: quote,
+    title: "POST-ENAGEGMENT",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
   },
 ];
 

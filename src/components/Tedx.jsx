@@ -2,7 +2,7 @@ import { apple, dummy } from "../assets";
 import styles, { layout } from "../style";
 
 const Tedx = () => (
-  <section id="product" className={layout.sectionReverse}>
+  <section id="about" className={layout.sectionReverse}>
     <div className={layout.sectionInfo}>
       <h2 className={` mx-20 ${styles.heading2}`}>
         ABOUT <span className="text-red"> Tedx</span>
