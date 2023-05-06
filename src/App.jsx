@@ -5,7 +5,7 @@ import {
   Tedx,
   Tedxdyp,
   Deliverables,
-  CardDeal,
+  Attend,
   Chapter,
   CTA,
   Footer,
@@ -72,12 +72,8 @@ const App = () => (
       <Speakers />
     </div>
 
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <CardDeal />
-        <CTA />
-        <Footer />
-      </div>
+    <div className={`bg-grey ${styles.flexStart}`}>
+      <Attend />
     </div>
   </div>
 );

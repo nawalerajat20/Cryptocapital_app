@@ -1,27 +1,17 @@
-import { quotes } from "../assets";
-
-const SpeakerCard = ({ content, name, title, img }) => (
-  <div className="flex justify-between flex-col px-10 py-12 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
-    <img
-      src={quotes}
-      alt="double_quotes"
-      className="w-[42.6px] h-[27.6px] object-contain"
-    />
-    <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10">
-      {content}
-    </p>
-
+const SpeakerCard = ({ name, title, img }) => (
+  <div className="flex justify-between flex-col  max-w-[320px] bg-white md:mr-10 sm:mr-5 mr-0 my-5 marquee">
     <div className="flex flex-row">
-      <img src={img} alt={name} className="w-[48px] h-[48px] rounded-full" />
-      <div className="flex flex-col ml-4">
-        <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
-          {name}
-        </h4>
-        <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
-          {title}
-        </p>
-      </div>
+      <img src={img} alt={name} className="w-[500px] h-[210px] mt-[15px] feedback-card" />
+      <div className="flex flex-col mb-4"></div>
     </div>
+
+    <h4 className="font-poppins font-semibold uppercase text-left text-[25px] leading-[32px] px-[0.5rem] py-[2rem] text-black">
+      {name}
+    </h4>
+    <div className="w-full h-[2px] bg-black mt-[8px]"></div>
+    <p className="font-poppins font-normal text-[16px] px-[0.5rem] py-[1rem] leading-[24px] text-dimWhite">
+      {title}
+    </p>
   </div>
 );
 

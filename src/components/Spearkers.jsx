@@ -4,12 +4,12 @@ import SpeakerCard from "./SpeakerCard";
 
 const Speakers = () => (
   <section
-    id="clients"
+    id="speakers"
     className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
   >
-    <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full bottom-40" />
+    <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full bottom-40 " />
 
-    <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
+    <div className="w-full flex px-[100px] justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
       <h2 className={`ml-[-2rem] ${styles.heading2}`}>
         OUR PREVIOUS SPEAKERS <br />{" "}
         <span className="text-red">20+ SPEAKERS</span>
@@ -24,7 +24,7 @@ const Speakers = () => (
       </div>
     </div>
 
-    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+    <div className="flex flex-row flex-wrap px-[60px] sm:justify-start grid grid-cols-4 justify-center w-full feedback-container relative z-[1]">
       {feedback.map((card) => (
         <SpeakerCard key={card.id} {...card} />
       ))}

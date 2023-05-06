@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Speakers from "./Spearkers";
-import CardDeal from "./CardDeal";
+import Attend from "./Attend";
 import Ted from "./Ted";
 import Tedx from "./Tedx";
 import Tedxdyp from "./Tedxdyp";
@@ -16,7 +16,7 @@ import Transending from "./Transending";
 export {
   Navbar,
   Speakers,
-  CardDeal,
+  Attend,
   Ted,
   Tedx,
   Tedxdyp,

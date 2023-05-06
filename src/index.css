@@ -107,6 +107,22 @@
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.marquee {
+  animation: scroll-left 4s linear infinite;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
@@ -139,11 +155,13 @@
 }
 
 .feedback-card {
-  background: transparent;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
 }
 
 .feedback-card:hover {
   background: var(--black-gradient);
+  filter: none;
 }
 
 .blue__gradient {
