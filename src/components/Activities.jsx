@@ -2,7 +2,7 @@ import { feedback } from "../constants";
 import styles from "../style";
 
 
-const Branding = () => (
+const Activities = () => (
   <section
     id="clients"
     className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
@@ -81,4 +81,4 @@ const Branding = () => (
   </section>
 );
 
-export default Branding;
+export default Activities;
