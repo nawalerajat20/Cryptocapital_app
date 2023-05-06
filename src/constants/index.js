@@ -185,6 +185,13 @@ export const insights = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore explicabo, perspiciatis libero reiciendis rerum animi dolorum ut architecto quos culpa deserunt,",
     img: circle,
   },
+  {
+    id: "insights-4",
+    name: "Orange Juice",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore explicabo, perspiciatis libero reiciendis rerum animi dolorum ut architecto quos culpa deserunt,",
+    img: circle,
+  },
 ];
 
 export const stats = [

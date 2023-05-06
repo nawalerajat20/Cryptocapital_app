@@ -3,7 +3,7 @@ import styles from "../style";
 const AttendCard = ({ name, title, img }) => (
 
 
-    <div className="flex justify-between flex-row px-[30px]  md:mr-[10rem] sm:mr-10 mr-0 my-5 ">
+    <div className="flex justify-between flex-row px-[30px]  md:mr-[10rem] sm:mr-0 mr-0 my-5 ">
       <div className="flex flex-row sm:px-20 ">
         <img src={img} alt={name} className=" ml-[-80px] w-[200px] h-[180px] relative " />
         <div

@@ -12,6 +12,8 @@ import Footer from "./Footer";
 import Theme from "./Theme";
 import Hero from "./Hero";
 import Transending from "./Transending";
+import Activities from "./Activities";
+import Packages from "./Packages";
 
 export {
   Navbar,
@@ -28,4 +30,6 @@ export {
   Theme,
   Hero,
   Transending,
+  Activities,
+  Packages,
 };

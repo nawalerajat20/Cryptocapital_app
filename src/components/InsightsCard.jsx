@@ -1,10 +1,10 @@
 const InsightsCard = ({ name, content, img }) => (
-  <div className="flex justify-between flex-col  max-w-[320px] bg-white md:mr-10 sm:mr-5 mr-0 my-5">
+  <div className="flex justify-between flex-col  max-w-[400px] bg-white md:mr-10 sm:mr-5 mr-0 my-5">
     <div className="flex flex-row">
       <img
         src={img}
         alt={name}
-        className="w-[100px] h-[100px] ml-[90px] rounded-full mt-[15px]"
+        className="w-[100px] h-[100px] ml-[80px] rounded-full mt-[15px]"
       />
       <div className="flex flex-col mb-4"></div>
     </div>

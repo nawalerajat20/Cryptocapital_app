@@ -14,6 +14,8 @@ import {
   Theme,
   Hero,
   Transending,
+  Activities,
+  Packages,
 } from "./components";
 
 const App = () => (
@@ -67,11 +69,9 @@ const App = () => (
     </div>
 
     <div className={`bg-dimBlue ${styles.flexStart}`}>
-      <div className={`flex ${styles.boxWidth}`}>
-        <Attend />
-      </div>
+      <Attend />
     </div>
-    <div className={`bg-primary ${styles.flexStart}`}>
+    <div className={`bg-black ${styles.flexStart}`}>
       <Insights />
     </div>
 
@@ -79,6 +79,15 @@ const App = () => (
       <div className={`flex ${styles.boxWidth}`}>
         <Deliverables />
       </div>
+    </div>
+
+    <div className={`bg-dimBlue ${styles.flexStart}`}>
+      <div className="flex sm:max-w-[1000px] w-full">
+        <Activities />
+      </div>
+    </div>
+    <div className={`bg-dimBlue ${styles.flexStart}`}>
+      <Packages />
     </div>
   </div>
 );
