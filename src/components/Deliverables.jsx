@@ -24,7 +24,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Deliverables = () => (
-  <section id="features" className={layout.section}>
+  <section id="sponsership" className={layout.section}>
     <div className={`px-[5%] ${layout.sectionInfo}`}>
       <h2 className={styles.heading2}>
         <span className="text-red text-[120%]">Deliverables</span>
@@ -33,10 +33,10 @@ const Deliverables = () => (
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
         cumque esse, officiis, nobis reiciendis libero soluta dolor quaerat at
         in impedit veniam? Doloremque aliquam eveniet culpa accusamus
-        necessitatibus non. Cum?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-        cumque esse, officiis, nobis reiciendis libero soluta dolor quaerat at
-        in impedit veniam? Doloremque aliquam eveniet culpa accusamus
-        necessitatibus non. Cum?
+        necessitatibus non. Cum? Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Provident cumque esse, officiis, nobis reiciendis
+        libero soluta dolor quaerat at in impedit veniam? Doloremque aliquam
+        eveniet culpa accusamus necessitatibus non. Cum?
       </p>
     </div>
 
