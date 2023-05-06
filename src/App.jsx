@@ -5,21 +5,18 @@ import {
   Ted,
   Tedx,
   Tedxdypakurdi,
+  Chatername,
   Theme,
-  Footfall,
-  Audience,
   Speakers,
-  Packages,
-  Timeline,
+  Speakerscards,
+  Footfall,
+  Attend,
+  Insights,
   Deliverables,
-  Branding,
-  Engagement,
-  PreEngagement,
-  PostEngagement,
-  PreviousSponsers,
-  ContactUs,
+  Activities,
+  Package,
+  Packagecards,
   Footer,
-  Sectionengagement,
 } from "./components";
 
 const App = () => (
@@ -36,96 +33,77 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Ted />
       </div>
     </div>
-
-    <div className={`bg-reds-gradient ${styles.paddingX}  ${styles.flexStart}`}>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Tedx />
       </div>
     </div>
-
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Tedxdypakurdi />
       </div>
     </div>
-
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Chatername />
+      </div>
+    </div>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Theme />
       </div>
     </div>
-
-    <div className={`bg-grey ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Footfall />
-      </div>
-    </div>
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Audience />
-      </div>
-    </div>
-    <div className={`bg-grey ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Speakers />
       </div>
     </div>
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Packages />
+        <Speakerscards />
       </div>
     </div>
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Timeline />
+        <Footfall />
       </div>
     </div>
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Attend />
+      </div>
+    </div>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Insights />
+      </div>
+    </div>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Deliverables />
       </div>
     </div>
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Sectionengagement />
+        <Activities />
       </div>
     </div>
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Branding />
+        <Package />
       </div>
     </div>
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Engagement />
+        <Packagecards />
       </div>
     </div>
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <PreEngagement />
-      </div>
-    </div>
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <PostEngagement />
-      </div>
-    </div>
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <PreviousSponsers />
-      </div>
-    </div>
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <ContactUs />
-      </div>
-    </div>
-    <div className={`bg-reds-gradient ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-red-gradient ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Footer />
       </div>
