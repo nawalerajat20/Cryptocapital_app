@@ -1,6 +1,6 @@
 import styles from "./style";
 import {
-  Billing,
+  Speakers,
   Ted,
   Tedx,
   Tedxdyp,
@@ -13,7 +13,7 @@ import {
   Stats,
   Theme,
   Hero,
-  Transending
+  Transending,
 } from "./components";
 
 const App = () => (
@@ -57,14 +57,10 @@ const App = () => (
       </div>
     </div>
     <div className={`bg-reds-gradient ${styles.flexStart}`}>
-      <div className={`flex ${styles.boxWidth}`}>
-        <Theme />
-      </div>
+      <Theme />
     </div>
     <div className={`bg-secondary ${styles.flexStart}`}>
-      <div className={`flex ${styles.boxWidth}`}>
-        <Transending />
-      </div>
+      <Transending />
     </div>
     <div className={`bg-reds-gradient ${styles.flexStart}`}>
       <div className={`flex ${styles.boxWidth}`}>
@@ -72,9 +68,12 @@ const App = () => (
       </div>
     </div>
 
+    <div className={`bg-grey ${styles.flexStart}`}>
+      <Speakers />
+    </div>
+
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Billing />
         <CardDeal />
         <CTA />
         <Footer />

@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
+import Speakers from "./Spearkers";
 import CardDeal from "./CardDeal";
 import Ted from "./Ted";
 import Tedx from "./Tedx";
@@ -15,7 +15,7 @@ import Transending from "./Transending";
 
 export {
   Navbar,
-  Billing,
+  Speakers,
   CardDeal,
   Ted,
   Tedx,
