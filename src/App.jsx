@@ -7,7 +7,7 @@ import {
   Deliverables,
   Attend,
   Chapter,
-  CTA,
+  Insights,
   Footer,
   Navbar,
   Stats,
@@ -62,18 +62,23 @@ const App = () => (
     <div className={`bg-secondary ${styles.flexStart}`}>
       <Transending />
     </div>
-    <div className={`bg-reds-gradient ${styles.flexStart}`}>
-      <div className={`flex ${styles.boxWidth}`}>
-        <Deliverables />
-      </div>
-    </div>
-
     <div className={`bg-grey ${styles.flexStart}`}>
       <Speakers />
     </div>
 
-    <div className={`bg-grey ${styles.flexStart}`}>
-      <Attend />
+    <div className={`bg-dimBlue ${styles.flexStart}`}>
+      <div className={`flex ${styles.boxWidth}`}>
+        <Attend />
+      </div>
+    </div>
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <Insights />
+    </div>
+
+    <div className={`bg-reds-gradient ${styles.flexStart}`}>
+      <div className={`flex ${styles.boxWidth}`}>
+        <Deliverables />
+      </div>
     </div>
   </div>
 );

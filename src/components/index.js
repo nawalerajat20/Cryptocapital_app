@@ -6,7 +6,7 @@ import Tedx from "./Tedx";
 import Tedxdyp from "./Tedxdyp";
 import Deliverables from "./Deliverables";
 import Chapter from "./Chapter";
-import CTA from "./CTA";
+import Insights from "./Insights";
 import Stats from "./Stats";
 import Footer from "./Footer";
 import Theme from "./Theme";
@@ -22,7 +22,7 @@ export {
   Tedxdyp,
   Deliverables,
   Chapter,
-  CTA,
+  Insights,
   Stats,
   Footer,
   Theme,

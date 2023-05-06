@@ -24,6 +24,7 @@ import people03 from "./people03.png";
 import quote from "./quote.png";
 import aboutus from "./aboutus.png";
 import dummy2 from "./dummy2.jpeg";
+import circle from "./circle.png";
 
 export {
   airbnb,
@@ -52,4 +53,5 @@ export {
   quote,
   aboutus,
   dummy2,
+  circle,
 };

@@ -11,6 +11,7 @@ import {
   coinbase,
   dropbox,
   quote,
+  circle,
 } from "../assets";
 
 export const navLinks = [
@@ -120,6 +121,69 @@ export const feedback = [
     name: "Herman Jensen",
     title: "Founder & Leader",
     img: people01,
+  },
+];
+
+export const attend = [
+  {
+    id: "feedback-1",
+    name: "HEADING ",
+    title: "Lorem ipsum, esse exercitationem facere odio! At, temporibus!",
+    img: people01,
+  },
+  {
+    id: "feedback-2",
+    name: "Steve Mark",
+    title: "Founder & Leader",
+    img: people02,
+  },
+  {
+    id: "feedback-3",
+    name: "Kenn Gallagher",
+    title: "Founder & Leader",
+    img: people03,
+  },
+  {
+    id: "feedback-4",
+    name: "Herman Jensen",
+    title: "Founder & Leader",
+    img: people01,
+  },
+  {
+    id: "feedback-5",
+    name: "Steve Mark",
+    title: "Founder & Leader",
+    img: people02,
+  },
+  {
+    id: "feedback-6",
+    name: "Kenn Gallagher",
+    title: "Founder & Leader",
+    img: people03,
+  },
+];
+
+export const insights = [
+  {
+    id: "insights-1",
+    name: "Orange Juice",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore explicabo, perspiciatis libero reiciendis rerum animi dolorum ut architecto quos culpa deserunt,",
+    img: circle,
+  },
+  {
+    id: "insights-2",
+    name: "Orange Juice",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore explicabo, perspiciatis libero reiciendis rerum animi dolorum ut architecto quos culpa deserunt,",
+    img: circle,
+  },
+  {
+    id: "insights-3",
+    name: "Orange Juice",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore explicabo, perspiciatis libero reiciendis rerum animi dolorum ut architecto quos culpa deserunt,",
+    img: circle,
   },
 ];
 
