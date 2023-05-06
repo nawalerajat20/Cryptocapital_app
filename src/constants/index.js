@@ -1,20 +1,4 @@
-import {
-  people01,
-  people02,
-  people03,
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
-  send,
-  shield,
-  star,
-  quote,
-} from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -22,44 +6,40 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "about",
-    title: "About",
+    id: "features",
+    title: "Features",
   },
   {
-    id: "speakers",
-    title: "Speakers",
+    id: "product",
+    title: "Product",
   },
   {
-    id: "sponsership",
-    title: "Sponsership",
-  },
-  {
-    id: "contactUs",
-    title: "Contact Us",
+    id: "clients",
+    title: "Clients",
   },
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon: quote,
-    title: "PRE-EVENT ENGAGEMENT",
+    icon: star,
+    title: "Rewards",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iste voluptatum, officiis laboriosam fuga adipisci!",
+      "The best credit cards offer some tantalizing combinations of promotions and prizes",
   },
   {
     id: "feature-2",
-    icon: quote,
-    title: "EVENT ENGAGEMENT",
+    icon: shield,
+    title: "100% Secured",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iste voluptatum, officiis laboriosam fuga adipisci!",
+      "We take proactive steps make sure your information and transactions are secure.",
   },
   {
     id: "feature-3",
-    icon: quote,
-    title: "POST-EVENT ENGAGEMENT",
+    icon: send,
+    title: "Balance Transfer",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iste voluptatum, officiis laboriosam fuga adipisci!",
+      "A balance transfer credit card can save you a lot of money in interest charges.",
   },
 ];
 

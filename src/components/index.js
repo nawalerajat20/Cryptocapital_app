@@ -1,43 +1,23 @@
-import Ted from "./Ted";
-import Tedx from "./Tedx";
-import Tedxdypakurdi from "./Tedxdypakurdi";
-import Theme from "./Theme";
-import Footfall from "./Footfall";
-import Audience from "./Audience";
-import Speakers from "./Speakers";
-import Packages from "./Packages";
-import Timeline from "./Timeline";
-import Deliverables from "./Deliverables";
-import Branding from "./Branding";
-import Engagement from "./Engagement";
-import PreEngagement from "./PreEngagement";
-import PostEngagement from "./PostEngagement";
-import PreviousSponsers from "./PerviousSponsers";
-import ContactUs from "./ContactUs";
-import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Billing from "./Billing";
+import CardDeal from "./CardDeal";
+import Business from "./Business";
+import Clients from "./Clients";
+import CTA from "./CTA";
+import Stats from "./Stats";
+import Footer from "./Footer";
+import Testimonials from "./Testimonials";
 import Hero from "./Hero";
-import Sectionengagement from "./Sectionengagement";
 
 export {
-  Ted,
-  Tedx,
-  Tedxdypakurdi,
-  Theme,
-  Footfall,
-  Audience,
-  Speakers,
-  Sectionengagement,
-  Packages,
-  Timeline,
-  Deliverables,
-  Branding,
-  Engagement,
-  PreEngagement,
-  PostEngagement,
-  PreviousSponsers,
-  ContactUs,
-  Footer,
   Navbar,
+  Billing,
+  CardDeal,
+  Business,
+  Clients,
+  CTA,
+  Stats,
+  Footer,
+  Testimonials,
   Hero,
 };

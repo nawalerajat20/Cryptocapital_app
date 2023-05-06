@@ -9,19 +9,14 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img
-        src={logo}
-        style={{ width: "200px", height: "100px" }}
-        alt="hoobank"
-        className="w-[124px] h-[32px]"
-      />
+      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal z-[10] cursor-pointer text-[16px] ${
-              active === nav.title ? "text-secondary" : "text-dimWhite"
+            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+              active === nav.title ? "text-white" : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
