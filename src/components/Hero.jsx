@@ -1,5 +1,5 @@
 import styles from "../style";
-import { robot } from "../assets";
+import { card } from "../assets";
 
 const Hero = () => {
   return (
@@ -19,16 +19,16 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-bold ss:text-[72px] text-[52px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-extrabold ss:text-[72px] text-[52px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
             CHAPTER <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">3rd 2023 OF </span>{" "}
+            <span className="text-red">3rd 2023 OF </span>{" "}
           </h1>
         </div>
 
         <h1 className="font-poppins font-bold ss:text-[68px] text-[52px] text-dimBlack ss:leading-[100.8px] leading-[75px] w-full">
           TEDxDYPAKURDI.
         </h1>
-        <p className={`${styles.paragraph} max-w-[400px] mt-5`}>
+        <p className={`${styles.paragraph} flex max-w-[500px] mt-5`}>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
           mollitia sit excepturi dolore, sequi autem? Voluptatum commodi sint
           voluptates quo mollitia.
@@ -39,8 +39,8 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 right-12 relative`}
       >
         <img
-          src={robot}
-          alt="billing"
+          src={card}
+          alt="card"
           className="w-[100%] h-[100%]  relative z-[5]"
         />
       </div>
