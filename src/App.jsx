@@ -17,6 +17,7 @@ import {
   Activities,
   Packages,
   Client,
+  Timeline,
 } from "./components";
 
 const App = () => (
@@ -78,6 +79,12 @@ const App = () => (
 
     <div className={`bg-reds-gradient ${styles.flexStart}`}>
       <div className={`flex ${styles.boxWidth}`}>
+        <Timeline />
+      </div>
+    </div>
+
+    <div className={`bg-reds-gradient ${styles.flexStart}`}>
+      <div className={`flex ${styles.boxWidth}`}>
         <Deliverables />
       </div>
     </div>
@@ -95,7 +102,7 @@ const App = () => (
     </div>
     <div className={`bg-black ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-      <Footer />
+        <Footer />
       </div>
     </div>
   </div>

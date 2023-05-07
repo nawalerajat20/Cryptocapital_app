@@ -34,6 +34,7 @@ import sponser1 from "./sponser1.svg";
 import sponser2 from "./sponser2.svg";
 import sponser3 from "./sponser3.svg";
 import logo2 from "./logo2.svg";
+import timeline from "./timeline.png";
 
 export {
   airbnb,
@@ -72,4 +73,5 @@ export {
   sponser2,
   sponser3,
   logo2,
+  timeline,
 };

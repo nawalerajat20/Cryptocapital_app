@@ -1,4 +1,4 @@
-import { feedback, insights } from "../constants";
+import { insights } from "../constants";
 import styles from "../style";
 import InsightsCard from "./InsightsCard";
 

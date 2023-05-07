@@ -27,7 +27,7 @@ const Deliverables = () => (
   <section id="sponsership" className={layout.section}>
     <div className={`px-[5%] ${layout.sectionInfo}`}>
       <h2 className={styles.heading2}>
-        <span className="text-red text-[120%]">Deliverables</span>
+        <span className="text-red uppercase text-[120%]">Deliverables</span>
       </h2>
       <p className={`${styles.paragraph} max-w-[500px] mt-5`}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident

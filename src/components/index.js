@@ -15,6 +15,7 @@ import Transending from "./Transending";
 import Activities from "./Activities";
 import Packages from "./Packages";
 import Client from "./client";
+import Timeline from "./Timeline";
 
 export {
   Navbar,
@@ -34,4 +35,5 @@ export {
   Activities,
   Packages,
   Client,
+  Timeline,
 };
