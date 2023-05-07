@@ -1,4 +1,3 @@
-import { stats } from "../constants";
 import styles from "../style";
 import { sponser1, sponser2, sponser3 } from "../assets";
 

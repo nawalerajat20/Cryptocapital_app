@@ -93,6 +93,9 @@ const App = () => (
     <div className={`bg-red-gradient ${styles.flexStart}`}>
       <Client />
     </div>
+    <div className={`bg-black ${styles.flexStart}`}>
+      <Footer />
+    </div>
   </div>
 );
 
