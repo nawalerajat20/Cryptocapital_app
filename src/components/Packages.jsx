@@ -38,6 +38,13 @@ const Packages = () => (
         <PackageCard key={card.id} {...card} />
       ))}
     </div>
+
+    <button
+      type="submit"
+      className="bg-black rounded-md hover:bg-red text-white px-10 py-5"
+    >
+     Explore More
+    </button>
   </section>
 );
 

@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY} bg-red-gradient`}
+      className={`flex md:flex-row flex-col ${styles.paddingY} mt-[60px] bg-red-gradient`}
     >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
@@ -44,6 +44,7 @@ const Hero = () => {
           className="w-[100%] h-[100%]  relative z-[5]"
         />
       </div>
+ 
     </section>
   );
 };
