@@ -25,6 +25,11 @@ import quote from "./quote.png";
 import aboutus from "./aboutus.png";
 import dummy2 from "./dummy2.jpeg";
 import circle from "./circle.png";
+import gold from "./gold.png";
+import radient from "./radiant.png";
+import silver from "./silver.png";
+import platinum from "./platinum.png";
+import bronze from "./bronze.png";
 
 export {
   airbnb,
@@ -54,4 +59,9 @@ export {
   aboutus,
   dummy2,
   circle,
+  gold,
+  silver,
+  radient,
+  bronze,
+  platinum,
 };

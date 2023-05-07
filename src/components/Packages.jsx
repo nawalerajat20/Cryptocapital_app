@@ -1,4 +1,4 @@
-import { feedback, insights } from "../constants";
+import { feedback, insights, packages } from "../constants";
 import styles from "../style";
 import PackageCard from "./PackageCard";
 
@@ -11,7 +11,7 @@ const Packages = () => (
 
     <div className="w-full flex px-[100px]  justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 py-[40px] relative bg-primary z-[1]">
       <h2 className={`ml-[-2rem] uppercase ${styles.heading2}`}>
-        Let's  <br />{" "}
+        Let's <br />{" "}
         <span className="text-red text-[70px]">make it happen</span>
       </h2>
       <div className="w-full md:mt-0 mt-6">
@@ -24,8 +24,17 @@ const Packages = () => (
       </div>
     </div>
 
-    <div className="flex flex-row flex-wrap px-[100px] py-[100px] sm:justify-start grid grid-cols-4 gap-3 justify-center w-full feedback-container relative z-[1]">
-      {insights.map((card) => (
+    <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full bottom-40 " />
+
+    <div className="w-full flex px-[100px] text-[40px] justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 py-[40px] relative z-[1]">
+      <h2 className={`ml-[-2rem] font-medium uppercase }`}>
+        we have got the right package for you <br />{" "}
+        <span className="text-red font-extrabold ">tiers and packages</span>
+      </h2>
+    </div>
+
+    <div className="flex flex-row flex-wrap px-[100px] py-[30px] sm:justify-start grid grid-cols-3 gap-2 justify-center w-full feedback-container relative z-[1]">
+      {packages.map((card) => (
         <PackageCard key={card.id} {...card} />
       ))}
     </div>

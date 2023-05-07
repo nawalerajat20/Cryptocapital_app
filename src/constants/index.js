@@ -12,6 +12,11 @@ import {
   dropbox,
   quote,
   circle,
+  gold,
+  radient,
+  silver,
+  platinum,
+  bronze,
 } from "../assets";
 
 export const navLinks = [
@@ -191,6 +196,49 @@ export const insights = [
     content:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore explicabo, perspiciatis libero reiciendis rerum animi dolorum ut architecto quos culpa deserunt,",
     img: circle,
+  },
+];
+
+export const packages = [
+  {
+    id: "packages-1",
+    name: "Gold",
+    title: "Sponser",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore explicabo, perspiciatis libero reiciendis rerum animi dolorum ut architecto quos culpa deserunt,",
+    img: gold,
+  },
+  {
+    id: "packages-2",
+    name: "radiant",
+    title: "title sponser",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore explicabo, perspiciatis libero reiciendis rerum animi dolorum ut architecto quos culpa deserunt,",
+    img: radient,
+  },
+  {
+    id: "packages-3",
+    name: "platinum",
+    title: "co sponser",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore explicabo, perspiciatis libero reiciendis rerum animi dolorum ut architecto quos culpa deserunt,",
+    img: platinum,
+  },
+  {
+    id: "packages-4",
+    name: "silver",
+    title: "partner",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore explicabo, perspiciatis libero reiciendis rerum animi dolorum ut architecto quos culpa deserunt,",
+    img: silver,
+  },
+  {
+    id: "packages-5",
+    name: "bronze",
+    title: "co-partner",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore explicabo, perspiciatis libero reiciendis rerum animi dolorum ut architecto quos culpa deserunt,",
+    img: bronze,
   },
 ];
 
