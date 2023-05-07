@@ -1,7 +1,6 @@
 import styles from "../style";
 import { logo2 } from "../assets";
 import { socialMedia } from "../constants";
-
 const Footer = () => (
   <section
     id="contactUs"
@@ -109,5 +108,4 @@ const Footer = () => (
     </div>
   </section>
 );
-
 export default Footer;
