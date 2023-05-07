@@ -93,8 +93,10 @@ const App = () => (
     <div className={`bg-red-gradient ${styles.flexStart}`}>
       <Client />
     </div>
-    <div className={`bg-black ${styles.flexStart}`}>
+    <div className={`bg-black ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
       <Footer />
+      </div>
     </div>
   </div>
 );

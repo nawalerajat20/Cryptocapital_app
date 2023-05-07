@@ -33,6 +33,7 @@ import bronze from "./bronze.png";
 import sponser1 from "./sponser1.svg";
 import sponser2 from "./sponser2.svg";
 import sponser3 from "./sponser3.svg";
+import logo2 from "./logo2.svg";
 
 export {
   airbnb,
@@ -70,4 +71,5 @@ export {
   sponser1,
   sponser2,
   sponser3,
+  logo2,
 };

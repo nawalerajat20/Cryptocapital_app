@@ -14,7 +14,7 @@ import Hero from "./Hero";
 import Transending from "./Transending";
 import Activities from "./Activities";
 import Packages from "./Packages";
-import Client from "./Client";
+import Client from "./client";
 
 export {
   Navbar,
