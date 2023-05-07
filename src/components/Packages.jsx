@@ -41,7 +41,7 @@ const Packages = () => (
 
     <button
       type="submit"
-      className="bg-black rounded-md hover:bg-red text-white px-10 py-5"
+      className="bg-black rounded-md hover:bg-red text-[20px] text-white font-medium mb-[30px]  px-10 py-3"
     >
      Explore More
     </button>
