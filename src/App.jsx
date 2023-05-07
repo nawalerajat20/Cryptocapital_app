@@ -16,6 +16,7 @@ import {
   Transending,
   Activities,
   Packages,
+  Client,
 } from "./components";
 
 const App = () => (
@@ -88,6 +89,9 @@ const App = () => (
     </div>
     <div className={`bg-dimBlue ${styles.flexStart}`}>
       <Packages />
+    </div>
+    <div className={`bg-dimBlue ${styles.flexStart}`}>
+      <Client />
     </div>
   </div>
 );

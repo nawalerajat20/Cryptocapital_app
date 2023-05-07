@@ -14,6 +14,7 @@ import Hero from "./Hero";
 import Transending from "./Transending";
 import Activities from "./Activities";
 import Packages from "./Packages";
+import Client from "./Client";
 
 export {
   Navbar,
@@ -32,4 +33,5 @@ export {
   Transending,
   Activities,
   Packages,
+  Client,
 };

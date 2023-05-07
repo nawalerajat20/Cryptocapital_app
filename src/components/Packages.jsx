@@ -1,4 +1,4 @@
-import { feedback, insights, packages } from "../constants";
+import { packages } from "../constants";
 import styles from "../style";
 import PackageCard from "./PackageCard";
 
