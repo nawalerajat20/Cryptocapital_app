@@ -30,6 +30,9 @@ import radient from "./radiant.png";
 import silver from "./silver.png";
 import platinum from "./platinum.png";
 import bronze from "./bronze.png";
+import sponser1 from "./sponser1.svg";
+import sponser2 from "./sponser2.svg";
+import sponser3 from "./sponser3.svg";
 
 export {
   airbnb,
@@ -64,4 +67,7 @@ export {
   radient,
   bronze,
   platinum,
+  sponser1,
+  sponser2,
+  sponser3,
 };

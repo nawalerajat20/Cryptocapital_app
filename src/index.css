@@ -108,7 +108,7 @@
 }
 
 .marquee {
-  animation: scroll-left 4s linear infinite;
+  animation: scroll-left 8s linear infinite;
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
