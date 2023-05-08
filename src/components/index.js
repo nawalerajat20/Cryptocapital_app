@@ -16,6 +16,7 @@ import Activities from "./Activities";
 import Packages from "./Packages";
 import Client from "./client";
 import Timeline from "./Timeline";
+import ExploreMore from "./ExploreMore";
 
 export {
   Navbar,
@@ -36,4 +37,5 @@ export {
   Packages,
   Client,
   Timeline,
+  ExploreMore,
 };

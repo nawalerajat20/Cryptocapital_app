@@ -21,12 +21,16 @@ import {
 
 export const navLinks = [
   {
-    id: "home",
+    id: "",
     title: "Home",
   },
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "explore",
+    title: "Explore",
   },
   {
     id: "speakers",
@@ -353,4 +357,3 @@ export const socialMedia = [
     link: "https://www.linkedin.com/",
   },
 ];
-

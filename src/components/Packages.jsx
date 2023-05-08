@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { packages } from "../constants";
 import styles from "../style";
 import PackageCard from "./PackageCard";
@@ -38,13 +39,14 @@ const Packages = () => (
         <PackageCard key={card.id} {...card} />
       ))}
     </div>
-
-    <button
-      type="submit"
-      className="bg-black rounded-md hover:bg-red text-[20px] text-white font-medium mb-[30px]  px-10 py-3"
-    >
-      Explore More
-    </button>
+    <Link to="/explore">
+      <button
+        type="submit"
+        className="bg-black rounded-md hover:bg-red text-[20px] text-white font-medium mb-[30px]  px-10 py-3"
+      >
+        Explore More
+      </button>
+    </Link>
   </section>
 );
 
