@@ -29,20 +29,20 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "explore",
-    title: "Explore",
+    id: "crypto",
+    title: "Crypto",
   },
   {
-    id: "speakers",
-    title: "Speakers",
+    id: "predictions",
+    title: "Predictions",
   },
   {
-    id: "sponsership",
-    title: "Sponsership",
-  },
-  {
-    id: "contactUs",
+    id: "contactus",
     title: "Contact Us",
+  },
+  {
+    id: "log in",
+    title: "Log In",
   },
 ];
 
