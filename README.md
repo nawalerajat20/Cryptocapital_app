@@ -1,2 +1,2 @@
 # sponsorship_app
-This is sponsorship app! which we are building with ReactJS.
+TEDx Sponsership proposal app buit with react!
