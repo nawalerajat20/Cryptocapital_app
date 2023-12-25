@@ -5,11 +5,11 @@ const SpeakerCard = ({ name, title, img }) => (
       <div className="flex flex-col mb-4"></div>
     </div>
 
-    <h4 className="font-poppins font-semibold uppercase text-left text-[25px] leading-[32px] px-[0.5rem] py-[2rem] text-black">
+    <h4 className="font-poppins font-semibold uppercase text-center text-[22px] leading-[32px] px-[0.5rem] py-[2rem] text-black">
       {name}
     </h4>
     <div className="w-full h-[2px] bg-black mt-[8px]"></div>
-    <p className="font-poppins font-normal text-[16px] px-[0.5rem] py-[1rem] leading-[24px] text-dimWhite">
+    <p className="font-poppins font-normal text-center text-[16px] px-[0.5rem] py-[1rem] leading-[24px] text-dimWhite">
       {title}
     </p>
   </div>

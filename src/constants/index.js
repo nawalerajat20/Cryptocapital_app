@@ -73,63 +73,27 @@ export const features = [
 export const feedback = [
   {
     id: "feedback-1",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+    name: "Vaishnavi Mokadam",
+    title: "Web Developer",
     img: people01,
   },
   {
     id: "feedback-2",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+    name: "Atharva Kutwal",
+    title: "Web Developer",
     img: people02,
   },
   {
     id: "feedback-3",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    name: "Durgesh Mahajan",
+    title: "Web Developer",
     img: people03,
   },
   {
     id: "feedback-4",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-5",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+    name: "Rajat Nawle",
+    title: "Web Developer",
     img: people02,
-  },
-  {
-    id: "feedback-6",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
-  {
-    id: "feedback-7",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-8",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-9",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
-  {
-    id: "feedback-10",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
   },
 ];
 
@@ -271,65 +235,65 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Resources",
     links: [
       {
-        name: "Content",
+        name: "Get Started",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Features",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Blogs",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "FAQ's",
         link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Crypto",
     links: [
       {
-        name: "Help Center",
+        name: "Trends",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Cryptocurrencies",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Predictions",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "https://www.hoobank.com/blog/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Support",
     links: [
       {
-        name: "Our Partner",
+        name: "Contact Us",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Report a bug",
         link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Report a feature",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Feedback",
+        link: "https://www.hoobank.com/our-partner/",
       },
     ],
   },

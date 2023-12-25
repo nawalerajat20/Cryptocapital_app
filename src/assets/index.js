@@ -33,9 +33,10 @@ import bronze from "./bronze.png";
 import sponser1 from "./sponser1.svg";
 import sponser2 from "./sponser2.svg";
 import sponser3 from "./sponser3.svg";
-import logo from "./logo.svg";
 import logo2 from "./logo2.svg";
 import timeline from "./timeline.png";
+import A1 from "./A1.png";
+import whitelogo from "./whitelogo.svg";
 
 export {
   airbnb,
@@ -73,7 +74,8 @@ export {
   sponser1,
   sponser2,
   sponser3,
-  logo,
   logo2,
   timeline,
+  A1,
+  whitelogo,
 };

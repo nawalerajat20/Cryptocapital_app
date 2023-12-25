@@ -25,6 +25,10 @@
   scroll-behavior: smooth;
 }
 
+.rounded-corners {
+  border-radius: 20px;
+}
+
 .text-gradient {
   background: linear-gradient(
     91.03deg,
