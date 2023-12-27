@@ -12,10 +12,10 @@
     #11101d 91.61%
   );
 
-  --brown-gradient: linear-gradient(
+  --blue-gradient: linear-gradient(
     180.61deg,
-    rgba(255, 43, 6, 0.38) -13.21%,
-    #e34643 160.94%
+    #B7E4F2 -10.21%,
+    #B7E4F2 100%
   );
 
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
@@ -25,9 +25,10 @@
   scroll-behavior: smooth;
 }
 
-.rounded-corners {
-  border-radius: 20px;
+section.flexCenter.paddingY.flex-col.rounded {
+  border-radius: 20px !important;
 }
+
 
 .text-gradient {
   background: linear-gradient(
@@ -150,7 +151,7 @@
 }
 
 .feature-card:hover {
-  background: var(--brown-gradient);
+  background: var(--blue-gradient);
   box-shadow: var(--card-shadow);
 }
 

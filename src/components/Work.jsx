@@ -1,5 +1,4 @@
-import { A1 } from "../assets";
-import styles, { layout } from "../style";
+import styles from "../style";
 
 const Work = () => (
   <section

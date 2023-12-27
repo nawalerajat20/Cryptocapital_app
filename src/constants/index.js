@@ -2,14 +2,12 @@ import {
   people01,
   people02,
   people03,
+  people04,
   facebook,
+  branding,
   instagram,
   linkedin,
   twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
   quote,
   circle,
   gold,
@@ -17,6 +15,9 @@ import {
   silver,
   platinum,
   bronze,
+  I1,
+  I2,
+  I3,
 } from "../assets";
 
 export const navLinks = [
@@ -29,8 +30,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "crypto",
-    title: "Crypto",
+    id: "cryptocurrency",
+    title: "Cryptocurrency",
   },
   {
     id: "predictions",
@@ -41,7 +42,7 @@ export const navLinks = [
     title: "Contact Us",
   },
   {
-    id: "log in",
+    id: "login",
     title: "Log In",
   },
 ];
@@ -49,51 +50,75 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: quote,
-    title: "PRE-ENGAGEMENT",
+    icon: I1,
+    title: "Project Ideas",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
   },
   {
     id: "MID-ENGAGEMENT",
-    icon: quote,
-    title: "100% Secured",
+    icon: I2,
+    title: "Brainstorming",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
   },
   {
     id: "feature-3",
-    icon: quote,
-    title: "POST-ENAGEGMENT",
+    icon: I3,
+    title: "Execution",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
+  },
+];
+
+export const services = [
+  {
+    id: "service-1",
+    icon: branding,
+    title: "Branding",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
+  },
+  {
+    id: "service-2",
+    icon: branding,
+    title: "Branding",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
+  },
+  {
+    id: "service-3",
+    icon: branding,
+    title: "Branding",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
   },
 ];
 
 export const feedback = [
   {
     id: "feedback-1",
-    name: "Vaishnavi Mokadam",
+    name: "Atharva Kutwal",
     title: "Web Developer",
     img: people01,
   },
   {
     id: "feedback-2",
-    name: "Atharva Kutwal",
+    name: "Durgesh Mahajan",
     title: "Web Developer",
     img: people02,
   },
   {
     id: "feedback-3",
-    name: "Durgesh Mahajan",
+    name: "Rajat Nawle",
     title: "Web Developer",
     img: people03,
   },
   {
     id: "feedback-4",
-    name: "Rajat Nawle",
+    name: "Vaishnavi Mokadam",
     title: "Web Developer",
-    img: people02,
+    img: people04,
   },
 ];
 
@@ -238,20 +263,20 @@ export const footerLinks = [
     title: "Resources",
     links: [
       {
+        id: "get started",
         name: "Get Started",
-        link: "https://www.hoobank.com/content/",
       },
       {
+        id: "features",
         name: "Features",
-        link: "https://www.hoobank.com/how-it-works/",
       },
       {
+        id: "blogs",
         name: "Blogs",
-        link: "https://www.hoobank.com/create/",
       },
       {
+        id: "faqs",
         name: "FAQ's",
-        link: "https://www.hoobank.com/explore/",
       },
     ],
   },
@@ -259,20 +284,20 @@ export const footerLinks = [
     title: "Crypto",
     links: [
       {
+        id: "trends",
         name: "Trends",
-        link: "https://www.hoobank.com/help-center/",
       },
       {
+        id: "cryptocurrencies",
         name: "Cryptocurrencies",
-        link: "https://www.hoobank.com/partners/",
       },
       {
+        id: "predictions",
         name: "Predictions",
-        link: "https://www.hoobank.com/suggestions/",
       },
       {
+        id: "newletters",
         name: "Newsletters",
-        link: "https://www.hoobank.com/blog/",
       },
     ],
   },
@@ -280,20 +305,20 @@ export const footerLinks = [
     title: "Support",
     links: [
       {
+        id: "contactus",
         name: "Contact Us",
-        link: "https://www.hoobank.com/our-partner/",
       },
       {
+        id: "reportbug",
         name: "Report a bug",
-        link: "https://www.hoobank.com/become-a-partner/",
       },
       {
+        id: "reportfeature",
         name: "Report a feature",
-        link: "https://www.hoobank.com/become-a-partner/",
       },
       {
+        id: "feedback",
         name: "Feedback",
-        link: "https://www.hoobank.com/our-partner/",
       },
     ],
   },

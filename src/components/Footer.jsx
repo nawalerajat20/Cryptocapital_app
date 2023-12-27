@@ -5,10 +5,11 @@ import { footerLinks, socialMedia } from "../constants";
 const Footer = () => {
   const sectionStyle = {
     borderRadius: "20px", // Adjust the value to change the amount of rounding
+    overflow: "hidden",  // Ensure content doesn't overflow rounded corners
   };
   return (
     <section
-      className={`${styles.flexCenter} ${styles.paddingY} flex-col`}
+      className={`${styles.flexCenter} ${styles.paddingY} flex-col ${styles.rounded}`} // Add a class for rounded corners
       style={sectionStyle}
     >
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>

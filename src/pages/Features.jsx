@@ -7,7 +7,7 @@ import {
 import Work from "../components/Work";
 import AboutUs from "../components/AboutUs";
 
-const About = () => {
+const Features = () => {
   return (
     <>
       <div className={`bg-primary ${styles.flexStart}`}>
@@ -27,4 +27,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Features;

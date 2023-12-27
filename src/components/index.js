@@ -17,6 +17,8 @@ import Packages from "./Packages";
 import Client from "./client";
 import Timeline from "./Timeline";
 import ExploreMore from "./ExploreMore";
+import Login from "./Login";
+import Predict from "./Predict";
 
 export {
   Navbar,
@@ -38,4 +40,6 @@ export {
   Client,
   Timeline,
   ExploreMore,
+  Login,
+  Predict,
 };

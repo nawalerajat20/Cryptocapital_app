@@ -21,6 +21,7 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import people04 from "./people04.png";
 import quote from "./quote.png";
 import aboutus from "./aboutus.png";
 import dummy2 from "./dummy2.jpeg";
@@ -37,6 +38,17 @@ import logo2 from "./logo2.svg";
 import timeline from "./timeline.png";
 import A1 from "./A1.png";
 import whitelogo from "./whitelogo.svg";
+import F1 from "./F1.png";
+import F2 from "./F2.png";
+import F3 from "./F3.png";
+import I1 from "./01..png";
+import I2 from "./02..png";
+import I3 from "./03..png";
+import branding from "./branding.jpeg";
+import Googlelogo from "./Googlelogo.png";
+import email from "./email.png";
+import location from "./location.png";
+import contact from "./contact.png";
 
 export {
   airbnb,
@@ -62,6 +74,7 @@ export {
   people01,
   people02,
   people03,
+  people04,
   quote,
   aboutus,
   dummy2,
@@ -78,4 +91,15 @@ export {
   timeline,
   A1,
   whitelogo,
+  F1,
+  F2,
+  F3,
+  I1,
+  I2,
+  I3,
+  branding,
+  Googlelogo,
+  email,
+  location,
+  contact,
 };
