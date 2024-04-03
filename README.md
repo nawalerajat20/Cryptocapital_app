@@ -1,2 +1,2 @@
-# sponsorship_app
-TEDx Sponsership proposal app buit with react!
+# Cryptocapital_app
+Cryptocapital is a cryptocurrency prediction app!
