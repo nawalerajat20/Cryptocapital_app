@@ -1,7 +1,11 @@
 const SpeakerCard = ({ name, title, img }) => (
-  <div className="flex justify-between flex-col  max-w-[320px] bg-white md:mr-10 sm:mr-5 mr-0 my-5 marquee">
+  <div className="flex justify-between flex-col  max-w-[320px] bg-white md:mr-10 sm:mr-5 mr-0 my-5">
     <div className="flex flex-row">
-      <img src={img} alt={name} className="w-[500px] h-[210px] mt-[15px] feedback-card" />
+      <img
+        src={img}
+        alt={name}
+        className="w-[500px] h-[210px] mt-[15px] feedback-card"
+      />
       <div className="flex flex-col mb-4"></div>
     </div>
 

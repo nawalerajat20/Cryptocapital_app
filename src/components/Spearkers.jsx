@@ -16,10 +16,10 @@ const Speakers = () => (
       </h2>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left ml-[10rem] max-w-[500px]`}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-          explicabo, perspiciatis libero reiciendis rerum animi dolorum ut
-          architecto quos culpa deserunt, assumenda ea placeat consequatur
-          tempore totam quis recusandae dolore.
+          CryptoCapital wouldn't be possible without the dedication of our
+          development team. Here, you can meet the talented minds who built this
+          innovative platform and continue to push the boundaries of crypto
+          prediction..
         </p>
       </div>
     </div>

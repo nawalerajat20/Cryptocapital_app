@@ -19,11 +19,11 @@ const Contact = () => {
         </div>
         <div className="flex items-center mb-8 ml-[-0.3rem]">
           <img src={email} alt="Email" className="w-8 h-6 mr-2" />
-          <p className="text-black">hello@loremipsum.com</p>
+          <p className="text-black">vaishnavimokadam@gmail.com</p>
         </div>
         <div className="flex items-center mb-8">
           <img src={contact} alt="Contact" className="w-5 h-8 mr-3" />
-          <p className="text-black">+3213 5534 2327</p>
+          <p className="text-black">+918432202242</p>
         </div>
       </div>
       <div className="bg-darkGrey rounded-[20px] px-10 py-12 text-white w-[400px] mr-[10rem]">

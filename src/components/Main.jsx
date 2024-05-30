@@ -10,10 +10,7 @@ const Main = () => (
         <br className="sm:block hidden" /> investment plans
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor. Aliquet ultrices ac, ametau. Arcu tortor,
-        purus in mattis at sed integer faucibus. Aliquet quis aliquet eget
-        mauris tortor. Aliquet ultrices ac, ametau.
+      We're the crypto prediction engine designed to empower your investment decisions.  Our team of experts analyzes market trends and leverages cutting-edge technology to illuminate the path of your crypto journey. Join us and navigate the ever-evolving landscape with confidence.
       </p>
 
       <Button styles={`mt-10`} />

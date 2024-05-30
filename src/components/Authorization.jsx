@@ -27,10 +27,10 @@ const Billing = () => (
           borderBottom: "1px solid #FFF",
         }}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        CryptoCapital equips you to conquer the ever-changing world of crypto
+        investments. Our platform utilizes cutting-edge technology to deliver
+        market forecasts you can rely on. We translate complex trends into clear
+        insights, empowering you to make informed decisions.
       </p>
       <h2 className={styles.heading3}>Documentation</h2>
       <p
@@ -41,10 +41,9 @@ const Billing = () => (
           borderBottom: "1px solid #FFF",
         }}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        A comprehensive user guide is available to help you navigate the full
+        potential of CryptoCapital. Don't hesitate to explore the documentation
+        and unlock the power of informed crypto investing!
       </p>
       <h2 className={styles.heading3}>Customers</h2>
       <p
@@ -55,10 +54,9 @@ const Billing = () => (
           borderBottom: "1px solid #FFF",
         }}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        CryptoCapital caters to a diverse range of customers, from seasoned
+        crypto investors seeking a competitive edge to curious newcomers eager
+        to explore the digital asset landscape.
       </p>
     </div>
   </section>

@@ -53,21 +53,21 @@ export const features = [
     icon: I1,
     title: "Project Ideas",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
+      "CryptoCapital is always pushing the boundaries of crypto prediction. We're exploring innovative projects like sentiment analysis tools to gauge social media buzz and predict future.",
   },
   {
     id: "MID-ENGAGEMENT",
     icon: I2,
     title: "Brainstorming",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
+      "CryptoCapital is always pushing the boundaries of crypto prediction. We're exploring innovative projects like sentiment analysis tools to gauge social media buzz and predict future.",
   },
   {
     id: "feature-3",
     icon: I3,
     title: "Execution",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
+      "Executing these ideas requires a focused approach.  Let's prioritize the features with the most user impact. We can then establish a development roadmap, outlining timelines.",
   },
 ];
 
@@ -77,21 +77,21 @@ export const services = [
     icon: branding,
     title: "Branding",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
+      "CryptoCapital goes beyond predictions. We empower you to navigate the cryptosphere not just as an investor, but as a brand. We offer a comprehensive branding service.",
   },
   {
     id: "service-2",
     icon: branding,
-    title: "Branding",
+    title: "Prediction",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
+      "CryptoCapital isn't just about predictions, it's about empowering you with foresight. Our cutting-edge technology analyzes market trends and delivers data-driven insights.",
   },
   {
     id: "service-3",
     icon: branding,
-    title: "Branding",
+    title: "Investment",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cumque esse, officiis",
+      "CryptoCapital isn't just about predictions, it's about action. We empower you to navigate the crypto market with confidence by providing insightful forecasts.",
   },
 ];
 
@@ -263,20 +263,24 @@ export const footerLinks = [
     title: "Resources",
     links: [
       {
-        id: "get started",
+        id: "get-started",
         name: "Get Started",
+        url: "/",
       },
       {
         id: "features",
         name: "Features",
+        url: "/feature",
       },
       {
         id: "blogs",
         name: "Blogs",
+        url: "/blogs",
       },
       {
         id: "faqs",
         name: "FAQ's",
+        url: "/faq",
       },
     ],
   },
@@ -286,18 +290,22 @@ export const footerLinks = [
       {
         id: "trends",
         name: "Trends",
+        url: "/trends",
       },
       {
         id: "cryptocurrencies",
         name: "Cryptocurrencies",
+        url: "/cryptocurrency",
       },
       {
         id: "predictions",
         name: "Predictions",
+        url: "/predictions",
       },
       {
-        id: "newletters",
-        name: "Newsletters",
+        id: "privacy",
+        name: "Privacy Policy",
+        url: "/privacy",
       },
     ],
   },
@@ -305,20 +313,24 @@ export const footerLinks = [
     title: "Support",
     links: [
       {
-        id: "contactus",
+        id: "contact-us",
         name: "Contact Us",
+        url: "/contactus",
       },
       {
-        id: "reportbug",
+        id: "report-bug",
         name: "Report a bug",
+        url: "/report",
       },
       {
-        id: "reportfeature",
+        id: "report-feature",
         name: "Report a feature",
+        url: "/reportfeature",
       },
       {
         id: "feedback",
         name: "Feedback",
+        url: "/feedback",
       },
     ],
   },

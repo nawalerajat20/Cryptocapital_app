@@ -66,17 +66,17 @@ const AboutUs = () => (
           >
             ABOUT US
           </h3>
-          <p className="text-black text-center text-sm ml-[100px] mr-[100px] max-w-[800px]">
-            Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-            aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-            placerat. Elit enim sed massa etiam. Mauris eu adipiscing ultrices
-            ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer
-            platea placerat. Elit enim sed massa etiam. Mauris eu adipiscing
-            ultrices ametodio aenean neque. Fusce ipsum orci rhoncus
-            aliporttitor integer platea placerat. Elit enim sed massa etiam.
-            Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum
-            orci rhoncus aliporttitor integer platea placerat. 
-            placerat.
+          <p className="text-black text-justify text-sm ml-[100px] mr-[100px] max-w-[800px]">
+            Cryptocapital is a trusted cryptocurrency predictor and information
+            service agency for blockchain technology and the overall digital
+            assets. Moreover, this is an entirely independent platform that
+            covers blockchain, cryptocurrency, decentralized applications. And
+            much other crypto information from the next generation web. We
+            welcome blockchain events, ICOs, News Tips, Crypto predictions,
+            Crypto DEX guide, Tracking tools, and information on other crypto
+            startups. By analyzing the growth of blockchain technology and
+            cryptocurrency involvement, Also, we are sharing the latest crypto
+            trends, frequent blockchain & bitcoin updates.
           </p>
         </div>
       </div>

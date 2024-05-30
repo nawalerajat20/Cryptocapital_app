@@ -16,10 +16,11 @@ const Description = () => (
           in the crypto market
         </h2>
         <p className="text-black text-center mt-[2rem]  max-w-[700px] md:text-xs">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nisi
-          repellat, cumque ut distinctio voluptate deleniti assumenda velit
-          molestiae in, est tempora temporibus atque? Natus nemo mollitia
-          possimus voluptatem nihil!{" "}
+          In the ever-changing world of cryptocurrency, trust is paramount.
+          CryptoCapital stands out as a reliable partner for your crypto
+          journey. Our predictions are built on a foundation of cutting-edge
+          analysis, unwavering independence, and a deep understanding of the
+          evolving market landscape.
         </p>
       </div>
     </div>
@@ -32,10 +33,10 @@ const Description = () => (
             Optimize and scale, easy to start{" "}
           </h3>
           <p className="text-white text-justify text-sm md:text-xs">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-            dolor minima optio impedit dolore, laboriosam vero tempore ut nobis.
-            Quam explicabo repudiandae amet earum, eaque accusantium ducimus
-            veniam a eligendi?
+            CryptoCapital is designed for effortless exploration. Start
+            navigating the crypto world with a user-friendly platform that
+            delivers powerful insights.Our focus on scalability ensures the
+            platform grows alongside.
           </p>
           <Button styles={`mt-10`} />
         </div>

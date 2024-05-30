@@ -5,25 +5,25 @@ import { footerLinks, socialMedia } from "../constants";
 const Footer = () => {
   const sectionStyle = {
     borderRadius: "20px", // Adjust the value to change the amount of rounding
-    overflow: "hidden",  // Ensure content doesn't overflow rounded corners
+    overflow: "hidden", // Ensure content doesn't overflow rounded corners
   };
   return (
     <section
-      className={`${styles.flexCenter} ${styles.paddingY} flex-col ${styles.rounded}`} // Add a class for rounded corners
+      className={`${styles.flexCenter} ${styles.paddingY} flex-col ${styles.rounded}`}
       style={sectionStyle}
     >
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
         <div className="flex-[1] flex flex-col justify-start mr-10">
           <img
             src={whitelogo}
-            alt="hoobank"
+            alt="cryptocapital"
             className="w-[266px] h-[72.14px] object-contain"
           />
           <p
-            className={`${styles.paragraph} text-dimGrey  ml-5 mt-4 max-w-[420px]`}
+            className={`${styles.paragraph} text-dimGrey ml-5 mt-4 max-w-[420px]`}
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
-            mollitia sit excepturi dolore, sequi autem.
+            Master Your Crypto Strategy and gain an edge in the ever-evolving
+            cryptocurrency market.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ const Footer = () => {
           {footerLinks.map((footerlink) => (
             <div
               key={footerlink.title}
-              className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}
+              className="flex flex-col ss:my-0 my-4 min-w-[150px]"
             >
               <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
                 {footerlink.title}
@@ -39,10 +39,11 @@ const Footer = () => {
               <ul className="list-none mt-4">
                 {footerlink.links.map((link, index) => (
                   <li
-                    key={link.name}
+                    key={link.id}
                     className={`font-poppins font-normal text-[16px] leading-[24px] text-dimGrey hover:text-dimBlue cursor-pointer ${
                       index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                     }`}
+                    onClick={() => (window.location.href = link.url)}
                   >
                     {link.name}
                   </li>
