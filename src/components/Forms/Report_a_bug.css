@@ -1,8 +1,8 @@
 .report{
     
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 140px;
+    margin-bottom: 90px;
     /* justify-content: center;  */
 } 
 .report h1{
@@ -19,10 +19,13 @@
     box-shadow: 10px 5px 5px #c6c3c3;
     padding: 30px 100px 30px 100px;
 } 
-.row1
+/* .row1
 {
     display: flex;
     flex-direction: row;
+} */
+.row1{
+    padding-top: 30px;
 }
 .component1
 {
@@ -37,25 +40,61 @@ div span{
     font-size: 17px;
     font-weight: 500;
     margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
 input{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     border:0px solid #c6c3c3;
     background-color: rgb(223, 224, 227);
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
+    height: 40px;
+    /* padding-left: 20px; */
 }
+/* div
+{
+    padding-top: 30px;
+} */
 .details{
     width: 100%;
     height:60px;
     padding: 5px 5px 5px 5px;
 }
-.btn
+.reportabugbtn
 {
     margin-top: 30px;
-    justify-content: center;
+    /* justify-content: center; */
     display: flex;
     flex-direction: row;
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* width: 0%;    */
+    align-items: center;
+    /* padding-left: 20%; */
+}
+.reportabugbtn1
+{
+    border: 1px solid #00BDF9;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: #00BDF9;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 40px;
+}
+.reportabugbtn2
+{
+    border: 1px solid #00BDF9;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: #00BDF9;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 40px;
 }

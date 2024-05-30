@@ -82,14 +82,34 @@
     font-weight: bolder;
     
 } */
+
 .containers
 {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 150px;
     /* background-color: aqua; */
     
+}
+
+#search1{
+    border: 1px solid black;
+    width: 70%;
+    border-radius: 5px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-top: 20px;
+    height: 50px;
+
+}
+
+#search1 input
+{
+    padding-left: 10px;
+    margin-left: 5px;
+    padding-top: 8px;
+    background-color: white;
 }
 .info
 {

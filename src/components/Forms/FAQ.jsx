@@ -3,6 +3,8 @@ import React, {useState} from 'react'
 import logo from '../Assets/question_mark.png';
 // import jsonData from './FAQ.json';
 import jsonData from '../JSON-Files/FAQ.json';
+// import './FAQ.css'
+import '../Crypto/Card.css';
 
 function FAQ() {
     const [questions] = useState(jsonData);
@@ -10,7 +12,7 @@ function FAQ() {
   return (
         <div>
             <section>
-                <div className='container1'>
+                <div className='FAQmain'>
                     <div className='circles'>
                         <div className='circle'></div>
                         <div className='circle'></div>

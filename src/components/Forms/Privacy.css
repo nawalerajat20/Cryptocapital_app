@@ -4,7 +4,12 @@
     font-weight: bolder;
     text-align: center;
 }
-p{
+/* p{
+    text-align: center;
+    padding: 40px 300px 60px 300px;
+    font-size: 20px;
+} */
+.para {
     text-align: center;
     padding: 40px 300px 60px 300px;
     font-size: 20px;
@@ -21,5 +26,9 @@ p{
 .cont3{
     background: #121F3F;
     color: white;
+}
+.privacy
+{
+    margin-top: 70px;
 }
 

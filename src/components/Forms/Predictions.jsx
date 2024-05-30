@@ -1,10 +1,12 @@
 import React from 'react';
 import Table from '../DataTable/Table';
+import '../Datatable/Datatbl.css';
+import './Prediction.css';
 
 function Predictions() {
     return (
-        <div>
-            <div className='heading5'>
+        <div className='predmain'>
+            <div className='heading8'>
                 <h1>CryptoCurrencies</h1>
                 <p>Cryptocurrency is a digital payment system that doesn't rely on banks to verify transactions. It’s a peer-to-peer system that can enable anyone anywhere to send and receive payments. Instead of being physical money carried around and exchanged in the real world, cryptocurrency payments exist purely as digital entries to an online database describing specific transactions. When you transfer cryptocurrency funds, the transactions are recorded in a public ledger. Cryptocurrency is stored in digital wallets.
 

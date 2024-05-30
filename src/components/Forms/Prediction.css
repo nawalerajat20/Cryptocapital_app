@@ -1,0 +1,17 @@
+.predmain{
+    /* background-color: red; */
+    padding-top: 150px;
+}
+.heading8
+{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 80px 50px 80px;
+}
+.heading8 h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}

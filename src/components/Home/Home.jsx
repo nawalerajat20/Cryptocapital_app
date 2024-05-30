@@ -6,6 +6,7 @@ import lottie1 from '../Assets/lottie-1.json';
 // import Table from './Table';
 import Table from '../DataTable/Table';
 import Lottie from 'lottie-react';
+import './Home.css';
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
             <br /><br /><br />
               At CryptoPredictions we provide daily, monthly and yearly predictions for over 19 000 cryptocurrencies. While we provide one of the most accurate predictions for cryptocurrencies on the market, they should never be taken as financial advice. Always do your due diligence before investing.
           </div>
-          <div id='search'>
+          <div id='search1'>
             {/* <button type="submit"><i class=" fa-solid fa-magnifying-glass"></i></button> */}
             <input type="text" placeholder="Search token or asset"/>
           </div>

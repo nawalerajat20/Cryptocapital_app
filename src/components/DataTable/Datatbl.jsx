@@ -1,4 +1,5 @@
 import React from 'react';
+import './Datatbl.css';
 // import Data from './data.json';
 
 function DataTable({data}) {

@@ -5,6 +5,7 @@ import icon from '../Assets/crypto_icon.png';
 import { useParams } from 'react-router-dom';
 import { TechnicalAnalysis } from "react-ts-tradingview-widgets";
 import CryptoGraphpred from './CryptoGraph-pred';
+import './CryptoPrediction.css'
 
 function CryptoPrediction(name) {
   const [time, settime] = useState("");

@@ -1,5 +1,6 @@
 import React from 'react'
 import CryptoPrediction from './CryptoPrediction';
+import './Card.css'
 
 function Card({ data }) {
     return (

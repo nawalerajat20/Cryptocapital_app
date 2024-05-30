@@ -1,6 +1,6 @@
 .main-data
 {
-    margin: 70px 100px 20px 100px;
+    margin: 150px 100px 20px 100px;
 }
 .crypto_information
 {
@@ -42,11 +42,13 @@
 .duration button
 {
     border: none;
-    background-color: rgb(250, 244, 244);
+    background-color: rgb(253, 251, 251);
     font-family: 'Roboto, Arial, sans-serif';
     font-weight: 600;
     font-size: 20px;
-    
+}
+.duration button:hover{
+        color: #00BDF9;
 }
 
 h2{

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import jsonData from '../JSON-Files/data.json';
 import { useNavigate } from 'react-router-dom';
-
+import './Card.css'
 
 function Cryptoinfo() {
     const [cards] = useState(jsonData);

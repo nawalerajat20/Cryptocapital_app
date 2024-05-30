@@ -344,6 +344,7 @@
 //using props
 import React, { useState, useEffect } from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import './CryptoGraph.css';
 
 function CryptoGraph({ duration, symbol }) {
   const [cryptoData, setCryptoData] = useState([]);

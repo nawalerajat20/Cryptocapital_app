@@ -2,14 +2,14 @@
 import React, { useEffect, useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
-const CryptoGraphpred = () => {
+const CryptoGraphpred = (symbol, currencyname) => {
   const pred = [
-    67822.15, 67595.6, 67241.84, 66572.71, 65668.57, 64696.01, 64148.94, 63449.98,
-    62741.58, 62211.89, 61743.5, 61768.49, 61738.41, 61908.38, 62135.17,
+    72855.15, 72703.6, 72557.84, 72278.71, 71978.57, 70828.01, 69924.94, 68973.98,
+    68404.58, 67721.89, 67055.5, 66573.49, 66165.41, 66198.38, 66152.17
   ];
 
   const [data, setData] = useState([]);
-
+  // const currency =`${symbol}-USD`;
   useEffect(() => {
     const formattedData = pred.map((value, index) => {
       const date = new Date();
@@ -22,7 +22,7 @@ const CryptoGraphpred = () => {
     /*
     const fetchData = async () => {
       try {
-        const response = await fetch('https://cryptobitsmodel.onrender.com/crypto/precictions?currency=BTC-USD');
+        const response = await fetch(`https://cryptobitsmodel.onrender.com/crypto/precictions?currency=${currency}`);
         const result = await response.json();
         if (result.message === 'success') {
           const formattedData = result.data.map((value, index) => {
