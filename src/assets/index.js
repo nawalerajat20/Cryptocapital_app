@@ -51,6 +51,7 @@ import location from "./location.png";
 import contact from "./contact.png";
 import prediction from "./prediction.png";
 import investment from "./investment.png";
+import icon from "./icon.png";
 
 export {
   airbnb,
@@ -106,4 +107,5 @@ export {
   contact,
   prediction,
   investment,
+  icon,
 };
