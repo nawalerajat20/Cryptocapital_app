@@ -44,11 +44,13 @@ import F3 from "./F3.png";
 import I1 from "./01..png";
 import I2 from "./02..png";
 import I3 from "./03..png";
-import branding from "./branding.jpeg";
+import branding from "./branding.png";
 import Googlelogo from "./Googlelogo.png";
 import email from "./email.png";
 import location from "./location.png";
 import contact from "./contact.png";
+import prediction from "./prediction.png";
+import investment from "./investment.png";
 
 export {
   airbnb,
@@ -102,4 +104,6 @@ export {
   email,
   location,
   contact,
+  prediction,
+  investment,
 };

@@ -26,7 +26,7 @@ const Box = ({ icon, title, content }) => (
       {title}
     </h4>
     {/* <div className="w-full h-[2px] bg-black mt-[8px]"></div> */}
-    <p className="font-poppins font-normal text-justify text-[13px] px-[0.5rem] px-5 py-5 mb-10 py-[1rem] leading-[24px] text-dimWhite">
+    <p className="font-poppins font-normal text-justify text-[13px] px-[0.5rem] px-7 py-5 mb-10 py-[1rem] leading-[24px] text-dimWhite">
       {content}
     </p>
   </div>

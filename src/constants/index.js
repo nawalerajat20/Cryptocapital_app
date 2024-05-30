@@ -5,6 +5,8 @@ import {
   people04,
   facebook,
   branding,
+  prediction,
+  investment,
   instagram,
   linkedin,
   twitter,
@@ -81,14 +83,14 @@ export const services = [
   },
   {
     id: "service-2",
-    icon: branding,
+    icon: prediction,
     title: "Prediction",
     content:
       "CryptoCapital isn't just about predictions, it's about empowering you with foresight. Our cutting-edge technology analyzes market trends and delivers data-driven insights.",
   },
   {
     id: "service-3",
-    icon: branding,
+    icon: investment,
     title: "Investment",
     content:
       "CryptoCapital isn't just about predictions, it's about action. We empower you to navigate the crypto market with confidence by providing insightful forecasts.",
