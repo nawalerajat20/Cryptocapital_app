@@ -15,7 +15,7 @@ const Description = () => (
           Why we are trusted over the <br className="sm:block hidden" /> world
           in the crypto market
         </h2>
-        <p className="text-black text-center mt-[2rem]  max-w-[700px] md:text-xs">
+        <p className="text-black text-center mt-[2rem] max-w-[700px] md:text-xs">
           In the ever-changing world of cryptocurrency, trust is paramount.
           CryptoCapital stands out as a reliable partner for your crypto
           journey. Our predictions are built on a foundation of cutting-edge
@@ -25,14 +25,14 @@ const Description = () => (
       </div>
     </div>
 
-    <div className="flex justify-center ml-20 mr-20">
-      <div className="flex items-center">
-        <div className="bg-lightBlue w-90 p-40 h-90 flex flex-col justify-center items-center text-center">
+    <div className="flex justify-center w-full px-20">
+      <div className="flex w-full">
+        <div className="bg-lightBlue flex-1 p-20 h-[400px] flex flex-col justify-center items-center text-center">
           {/* Adjust width and height to create a square appearance */}
           <h3 className="text-black mb-3 text-base md:text-lg font-bold">
             Optimize and scale, easy to start{" "}
           </h3>
-          <p className="text-white text-justify text-sm md:text-xs">
+          <p className="text-black text-center text-sm md:text-xs">
             CryptoCapital is designed for effortless exploration. Start
             navigating the crypto world with a user-friendly platform that
             delivers powerful insights.Our focus on scalability ensures the
@@ -40,7 +40,7 @@ const Description = () => (
           </p>
           <Button styles={`mt-10`} />
         </div>
-        <div className="bg-black w-90 p-40 h-90 flex flex-col justify-center items-center text-center">
+        <div className="bg-black flex-1 p-10 h-[400px] flex flex-col justify-center items-center text-center">
           <div className={layout.sectionImg}>
             <img src={F2} alt="image" className="w-[100%] h-[100%]" />
           </div>
